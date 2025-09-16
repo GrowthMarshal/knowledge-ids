@@ -1,0 +1,48 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@id": "https://www.growthmarshal.io/knowledge/ids/org/growth-marshal",
+      "@type": "ProfessionalService",
+      "name": "Growth Marshal",
+      "url": "https://www.growthmarshal.io/",
+      "description": "Growth Marshal is an AI Search Optimization Agency that helps businesses scale their visibility across large language models (LLMs).",
+      "slogan": "Transform Prompts into Pipeline",
+      "hasPart": [
+        { "@id": "https://www.growthmarshal.io/knowledge/ids/publication/learning-hub" },
+        { "@id": "https://www.growthmarshal.io/knowledge/ids/publication/ai-search-lab" },
+        { "@id": "https://www.growthmarshal.io/knowledge/ids/publication/market-insights" }
+      ]
+    },
+    {
+      "@id": "https://www.growthmarshal.io/knowledge/ids/publication/learning-hub",
+      "@type": "CreativeWorkSeries",
+      "name": "Learning Hub",
+      "url": "https://learning-hub.growthmarshal.io/learning-hub",
+      "publisher": { "@id": "https://www.growthmarshal.io/knowledge/ids/org/growth-marshal" },
+      "inLanguage": "en",
+      "isAccessibleForFree": true,
+      "dateModified": "2025-09-15"
+    },
+    {
+      "@id": "https://www.growthmarshal.io/knowledge/ids/publication/ai-search-lab",
+      "@type": "CreativeWorkSeries",
+      "name": "AI Search Lab",
+      "url": "https://ai-search-lab.growthmarshal.io/ai-search-lab",
+      "publisher": { "@id": "https://www.growthmarshal.io/knowledge/ids/org/growth-marshal" },
+      "inLanguage": "en",
+      "isAccessibleForFree": true,
+      "dateModified": "2025-09-15"
+    },
+    {
+      "@id": "https://www.growthmarshal.io/knowledge/ids/publication/market-insights",
+      "@type": "CreativeWorkSeries",
+      "name": "Market Insights",
+      "url": "https://market-insights.growthmarshal.io/market-insights",
+      "publisher": { "@id": "https://www.growthmarshal.io/knowledge/ids/org/growth-marshal" },
+      "inLanguage": "en",
+      "isAccessibleForFree": true,
+      "dateModified": "2025-09-15"
+    }
+  ]
+}
