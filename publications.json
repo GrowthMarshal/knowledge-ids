@@ -6,7 +6,7 @@
       "@type": "ProfessionalService",
       "name": "Growth Marshal",
       "url": "https://www.growthmarshal.io/",
-      "description": "Growth Marshal is an AI Search Optimization Agency that helps businesses scale their visibility across large language models (LLMs).",
+      "description": "Growth Marshal is a frontier AI Search Optimization Agency that engineers visibility across large language models (LLMs).",
       "slogan": "Transform Prompts into Pipeline",
       "hasPart": [
         { "@id": "https://www.growthmarshal.io/knowledge/ids/publication/learning-hub" },
